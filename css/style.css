@@ -1,0 +1,737 @@
+body{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+}
+
+header{
+    max-width: 1276px;
+    height: 110px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 0 45px 0 45px;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 0px 0px 10px #597DBC0D;
+}
+.for-user{
+    display: flex;
+    align-items: center;
+}
+.for-user img{
+    width: 18px;
+}
+.for-user h4{
+    font-size: 12px;
+    margin-top: 6px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.header-search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: initial;
+    cursor: pointer;
+
+}
+.cart-a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 24px;
+}
+.smile-a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* main{
+    max-width: 1186px;
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+} */
+.main-slide{
+    max-width: 1186px;
+    height: 280px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #f5ad001a;
+}
+.little-info{
+    max-width: 1186px;
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.little-info>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 277px;
+    height: 100%;
+    border-radius: 10px;
+}
+.little-info img{
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 26px;
+    margin-left: 24px;
+}
+.little-info p{
+    font-size: 14px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.litinfo1{
+    background-color: #F1F7E9;
+}
+.litinfo1 img{
+    background-color: #E3F0D4;
+}
+.litinfo1 span{
+    color: #74B42C;
+}
+.litinfo2{
+    background-color: #FEEFE8;
+}
+.litinfo2 img{
+    background-color: #FDDFD2;
+}
+.litinfo2 span{
+    color: #F5621F;
+}
+.litinfo3{
+    background-color: #EBF7FC;
+}
+.litinfo3 img{
+    background-color: rgba(60, 171, 224, 0.2);
+}
+.litinfo3 span{
+    color: #3CABE0;
+}
+.litinfo4{
+    background-color: #FAF4FA;
+}
+.litinfo4 img{
+    background-color: rgba(204, 150, 208, 0.2);
+}
+.litinfo4 span{
+    color: #CC96D0;
+}
+.animal-products{
+    max-width: 1186px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.grid-products{
+    width: 100%;
+    height: 426px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 26px;
+}
+.grid-products button{
+    width: 161px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    color: #111111;
+    font-size: 12px;
+    font-family: FiraGO;
+    position: absolute;
+    cursor: pointer;
+}
+.grid-item1{
+    grid-row: 1 / span 2;
+    border-radius: 10px;
+    background-color: #F5621F;
+    position: relative;    
+}
+.grid-item1 h3{
+    position: absolute;
+    font-size: 14px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    left: 40px;
+    top: 72px;
+}
+.grid-item1 .big-p{
+    position: absolute;
+    font-size: 24px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    top: 114px;
+    left: 40px;
+}
+.grid-item1 .small-p{
+    position: absolute;
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    left: 40px;
+    top: 150px;
+}
+.grid-item1 button{
+    left: 40px;
+    top: 192px;
+}
+.grid-item1 img{
+    position: absolute;
+    width: 218px;
+    height: 291px;
+    right: 0px;
+    bottom: 0px;
+}
+.grid-item2{
+    border-radius: 10px;
+    background-color: #3CABE0;
+    position: relative;  
+}
+.grid-item2 .big-p{
+    position: absolute;
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    left: 74px;
+    top: 46px;
+}
+.grid-item2 .small-p{
+    position: absolute;
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    left: 74px;
+    top: 76px;
+}
+.grid-item2 button{
+    right: 40px;
+    bottom: 20px;
+}
+.grid-item2 img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.grid-item3{
+    border-radius: 10px;
+    background-color: #74B42C;
+    position: relative; 
+}
+.grid-item3 .small-p{
+    position: absolute;
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    z-index: 2;
+    left: 40px;
+    top: 43px;
+}
+.grid-item3 .big-p{
+    position: absolute;
+    font-size: 24px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    z-index: 2;
+    left: 40px;
+    top: 76px;
+}
+.grid-item3 button{
+    bottom: 20px;
+    left: 40px;
+}
+.grid-item3 img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.grid-item4{
+    grid-column: 2 / span 2;
+    border-radius: 10px;
+    background-color: #F5AD00;
+    position: relative; 
+}
+.grid-item4 .small-p{
+    position: absolute;
+    position: absolute;
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    left: 303px;
+    top: 43px;
+}
+.grid-item4 .big-p{
+    position: absolute;
+    font-size: 24px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    left: 303px;
+    top: 76px;
+}
+.grid-item4 button{
+    left: 303px;
+    bottom: 40px;
+}
+.grid-item4 img{
+    width: 202px;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+}
+.top-product{
+    max-width: 1326px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.product-title{
+    max-width: 1186px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.product-title h2{
+    font-size: 28px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.product-title a{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #9C9C9C;
+}
+.product-slider{
+    width: 100%;
+    height: 441px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-list{
+    width: 1186px;
+    height: 441px;
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.product-back{
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E733;
+}
+.product-front{
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E733;
+}
+.product{
+    width: 277px;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E74D;
+    border-radius: 10px;
+}
+.board-info{
+    max-width: 1186px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.board-info>div{
+    width: 378px;
+    box-shadow: 0px 0px 20px #597DBC0D;
+    border-radius: 10px;
+}
+.board-info1{
+    background-color: #FFFFFF;
+    position: relative;
+}
+.board-info1 h4{
+    width: 232px;
+    margin-top: 75px;
+    margin-left: 73px;
+    font-size: 24px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.board-info1 img{
+    width: 312px;
+    height: 238px;
+}
+.zoo-card1{
+    position: absolute;
+    top: 149px;
+    right: 40px;
+    z-index: 2;
+}
+.zoo-card2{
+    position: absolute;
+    right: -25px;
+    bottom: -35px;
+}
+.board-info2{
+    background-color: #FEE02E;
+    position: relative;
+}
+.board-info2 div{
+    margin-top: 45px;
+    margin-left: 40px;
+}
+.board-info2 h5{
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.board-info2 h4{
+    font-size: 24px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.board-info2 button{
+    width: 161px;
+    height: 42px;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    color: #111111;
+    font-size: 12px;
+    font-family: FiraGO;
+    cursor: pi;
+}
+.board-info2 img{
+    position: absolute;
+    bottom: -28px;
+    right: -62px;
+}
+.board-info3{
+
+    position: relative;
+    background-color: #FFFFFF;
+}
+.board-info3>h4{
+    width: 179px;
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+    margin-top: 43px;
+    margin-left: 40px;
+}
+.discount-div{
+    position: absolute;
+    width: 119px;
+    height: 119px;
+    background-color: #F5621F;
+    border-radius: 0px 10px 0px 193px;
+    padding-top: 20px;
+    text-align: center;
+    top: 0;
+    right: 0;
+}
+.discount-div h5{
+    font-size: 24px;
+    font-family: FiraGO;
+    color: #FFFFFF;
+}
+.discount-div h6{
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-top: 3px;
+    text-decoration: line-through;
+}
+.board-slider{
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.board-slider div{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 4px;
+}
+.board-slider img{
+    width: 163px;
+    height: 191px;
+    box-shadow: 0px 10px 30px #00000029;
+}
+.board-slider span{
+    color: #FFFFFF;
+}
+.board3-lastdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 23px;
+}
+.board3-lastdiv h4{
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.board3-lastdiv button{
+    width: 161px;
+    height: 42px;
+    margin-top: 31px;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: FiraGO;
+    background-color: #111111;
+}
+.last-product{
+    max-width: 1326px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 79px;
+}
+.last-title{
+    max-width: 1186px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.last-title h2{
+    font-size: 28px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.last-title a{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #9C9C9C;
+}
+.last-slider{
+    width: 100%;
+    height: 441px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last-list{
+    width: 1186px;
+    height: 441px;
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-back{
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E733;
+}
+.last-front{
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E733;
+}
+.last{
+    width: 277px;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E74D;
+    border-radius: 10px;
+}
+.banner{
+    max-width: 1186px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: #F5AD00;
+    border-radius: 10px;
+    position: relative;
+}
+.banner>div{
+    padding-top: 56px;
+    padding-left: 101px;
+}
+.banner p{
+    width: 509px;
+    font-size: 32px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.banner button{
+    width: 161px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    color: #111111;
+    font-size: 12px;
+    font-family: FiraGO;
+    cursor: pointer;
+}
+.banner img{
+    position: absolute;
+    right: 0;
+    margin-top: -245px;
+}
+.brands-section{
+    max-width: 1326px;
+    height: 149px;
+    margin: 0 auto;
+    margin-top: 79px;
+}
+.brands-title{
+    max-width: 1186px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.brands-title h2{
+    font-size: 28px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.brands-title a{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #9C9C9C;
+}
+.brands-slider{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.brands-list{
+    width: 1186px;
+    height: 90px;
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.brands-back{
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E733;
+}
+.brands-front{
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E733;
+}
+.brands{
+    width: 176px;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E74D;
+    border-radius: 10px;
+}
+.footer-top{
+    max-width: 1186px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+}
+.footer-text{
+    width: 378px;
+}
+.footer-text img{
+    width: 141.48px;
+}
+.footer-text p{
+    margin-top: 27px;
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #6E6E6E;
+}
+.footer-categories{
+    margin-left: 127px;
+}
+.footer-categories li {
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #6E6E6E;
+    margin-top: 16px;
+}
+
+.footer-top h3{
+    font-size: 14px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+    margin-bottom: 31px;
+}
+.footer-menu{
+    margin-left: 112px;
+}
+.footer-menu li{
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #6E6E6E;
+    margin-top: 16px;
+}
+.footer-contact{
+    margin-left: 80px;
+}
+.footer-contact li{
+    font-size: 14px;
+    font-size: 12px;
+    font-family: FiraGO;
+    color:  #111111;
+    margin-top: 16px;
+}
+.footer-bottom{
+    max-width: 1186px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.footer-bottom h4{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #9C9C9C;
+}
+.footer-bottom h3{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #111111;
+}
+.footer-bottom span{
+    color: #74B42C;
+}
+.footer-kort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 142px;
+}
+.kort-master{
+    margin: 0 37px 0 31px;
+}

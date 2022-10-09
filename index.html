@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:description" content="ზოომაღაზია">
+    <meta property="og:image" content="https://img.freepik.com/premium-vector/dog-cat-pet-shop-logo-template_497517-360.jpg?w=2000">
+    <meta name="author" content="კახა ბერიძე">
+    <meta name="keywords" content="ცხოველთა კვება, ცხოველები, ფრინველები, როგორ მოვუაროთ შინაურ ცხოველებს, რჩევები მათ ვისაც შინაური ცხოველი ჰყავს">
+    <link rel="shortcut icon" href="image/zoo-icon.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
@@ -38,8 +43,22 @@
     <main>
         <!-- მთავარი საინფორმაციო ბანერ-სლაიდერი -->
         <section class="main-slide">
-            <div class="slider-">
-
+            <div class="slider">
+                <div class="slider-arrow">
+                    <span class="material-icons">arrow_back</span>
+                </div>
+                <div class="slider-text">
+                    <p>მიიღე 30%-იანი ფასდაკლება პედიგრის ნებისმიერ პროდუქციაზე</p>
+                    <button>შეიძინე ეხლავე</button>
+                    <div>
+                        <span class="abt-b1"></span>
+                        <span class="abt-b2"></span>
+                        <span class="abt-b2"></span>
+                    </div>
+                </div>
+                <div class="slider-arrow">
+                    <span class="material-icons">arrow_forward</span>
+                </div>
             </div>
         </section>
         <!-- მცირე ინფორმაცია მომხმარებლისთვის-პროდუქცია-ფასდაკლება-გადახდები-მიტანის სერვისი -->
@@ -107,14 +126,77 @@
                 <a href="#">ყველას ნახვა</a>
             </div>
             <div class="product-slider">
-                <button class="product-back"></button>
+                <button class="product-back">
+                    <span class="material-icons">arrow_back</span>
+                </button>
                 <div class="product-list">
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
-                    <div class="product"></div>
+                    <div class="product">
+                        <span class="material-icons">percent</span>
+                        <img src="image/pedigri.jpg" alt="pedigri">
+                        <div class="product-petlist">
+                            <h4>პედიგრი</h4>
+                            <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</p>
+                            <div class="product-info">
+                                <div>600გრ.</div>
+                                <div>2 კგ.</div>
+                                <div>5 კგ.</div>
+                                <div>13 კგ.</div>
+                            </div>
+                            <div class="product-price">
+                                <h5>135 ₾</h5>
+                                <span class="material-icons">shopping_cart</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="image/royal-canin-1.jpg" alt="image">
+                        <div class="product-petlist">
+                            <h4>Royal Canin</h4>
+                            <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</p>
+                            <div class="product-info">
+                                <div>400გრ.</div>
+                                <div>8 კგ.</div>
+                                <div>1 შეკვრა</div>
+                            </div>
+                            <div class="product-price">
+                                <h5>140.45 ₾</h5>
+                                <span class="material-icons">shopping_cart</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="image/sol-mini.png" alt="image">
+                        <div class="product-petlist">
+                            <h4>Royal Canin</h4>
+                            <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</p>
+                            <div class="product-info">
+                                <div>400გრ.</div>
+                                <div>8 კგ.</div>
+                            </div>
+                            <div class="product-price">
+                                <h5 id="price-no">არ არის მარაგში</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="image/royal-roy.jpg" alt="image">
+                        <div class="product-petlist">
+                            <h4>Royal Canin</h4>
+                            <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</p>
+                            <div class="product-info">
+                                <div>400გრ.</div>
+                                <div>8 კგ.</div>
+                            </div>
+                            <div class="product-price" id="product-bt">
+                                <h5>140.45 ₾</h5>
+                                <span class="material-icons">shopping_cart</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <button class="product-front"></button>
+                <button class="product-front">
+                    <span class="material-icons">arrow_forward</span>
+                </button>
             </div>
         </section>
         <!-- საინფორმაციო ბანერი-#2 -->
@@ -163,14 +245,77 @@
                 <a href="#">ყველას ნახვა</a>
             </div>
             <div class="last-slider">
-                <button class="last-back"></button>
+                <button class="last-back">
+                    <span class="material-icons">arrow_back</span>
+                </button>
                 <div class="last-list">
-                    <div class="last"></div>
-                    <div class="last"></div>
-                    <div class="last"></div>
-                    <div class="last"></div>
+                    <div class="product">
+                        <span class="material-icons">percent</span>
+                        <img src="image/pedigri.jpg" alt="pedigri">
+                        <div class="product-petlist">
+                            <h4>პედიგრი</h4>
+                            <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</p>
+                            <div class="product-info">
+                                <div>600გრ.</div>
+                                <div>2 კგ.</div>
+                                <div>5 კგ.</div>
+                                <div>13 კგ.</div>
+                            </div>
+                            <div class="product-price">
+                                <h5>135 ₾</h5>
+                                <span class="material-icons">shopping_cart</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="image/royal-canin-1.jpg" alt="image">
+                        <div class="product-petlist">
+                            <h4>Royal Canin</h4>
+                            <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</p>
+                            <div class="product-info">
+                                <div>400გრ.</div>
+                                <div>8 კგ.</div>
+                                <div>1 შეკვრა</div>
+                            </div>
+                            <div class="product-price">
+                                <h5>140.45 ₾</h5>
+                                <span class="material-icons">shopping_cart</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="image/sol-mini.png" alt="image">
+                        <div class="product-petlist">
+                            <h4>Royal Canin</h4>
+                            <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</p>
+                            <div class="product-info">
+                                <div>400გრ.</div>
+                                <div>8 კგ.</div>
+                            </div>
+                            <div class="product-price">
+                                <h5 id="price-no">არ არის მარაგში</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="image/royal-roy.jpg" alt="image">
+                        <div class="product-petlist">
+                            <h4>Royal Canin</h4>
+                            <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</p>
+                            <div class="product-info">
+                                <div>400გრ.</div>
+                                <div>8 კგ.</div>
+                            </div>
+                            <div class="product-price" id="product-bt">
+                                <h5>140.45 ₾</h5>
+                                <span class="material-icons">shopping_cart</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <button class="last-front"></button>
+                <button class="last-front">
+                    <span class="material-icons">arrow_forward</span>
+                </button>
             </div>
         </section>
         <!-- საინფორმაცი ბანერი #3 -->
@@ -187,16 +332,32 @@
                 <h2>ბრენდები</h2>
             </div>
             <div class="brands-slider">
-                <button class="brands-back"></button>
+                <button class="brands-back">
+                    <span class="material-icons">arrow_back</span>
+                </button>
                 <div class="brands-list">
-                    <div class="brands"></div>
-                    <div class="brands"></div>
-                    <div class="brands"></div>
-                    <div class="brands"></div>
-                    <div class="brands"></div>
-                    <div class="brands"></div>
+                    <div class="brands">
+                        <img src="image/Royal-Canin-Logo.jpg" alt="logo">
+                    </div>
+                    <div class="brands">
+                        <img src="image/perfect-fit.png" alt="logo">
+                    </div>
+                    <div class="brands">
+                        <img src="image/eukanuba-logo-vector.png" alt="logo">
+                    </div>
+                    <div class="brands">
+                        <img src="image/grandorf-logo.png" alt="logo">
+                    </div>
+                    <div class="brands">
+                        <img src="image/chappi-logo.png" alt="logo">
+                    </div>
+                    <div class="brands">
+                        <img src="image/Petcurean-logo.jpg" alt="logo">
+                    </div>
                 </div>
-                <button class="brands-front"></button>
+                <button class="brands-front">
+                    <span class="material-icons">arrow_forward</span>
+                </button>
             </div>
         </section>
     </main>
@@ -250,7 +411,7 @@
                     <a href="#">რეგისტრაცია</a>
                 </li>
                 <li>
-                    <a href="#">კონტაქტი</a>
+                    <a href="contact.html">კონტაქტი</a>
                 </li>
             </ul>
             <ul class="footer-contact">

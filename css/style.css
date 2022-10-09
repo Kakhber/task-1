@@ -65,6 +65,62 @@ header{
     border-radius: 10px;
     box-shadow: 0px 0px 30px #f5ad001a;
 }
+.slider{
+    background-image: url(../image/pug-dog-names.jpg);
+    background-size: cover;
+    background-repeat: round;
+    /* width: 1186px; */
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+}
+.slider-arrow{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    color: #3F3F3F;
+    box-shadow: 0px 0px 20px #597DBC1A;
+    cursor: pointer;
+}
+.slider-text{
+    text-align: center;
+    width: 344px;
+}
+.slider-text p{
+    opacity: 3;
+    font-size: 24px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    text-align: center;
+}
+.slider-text button{
+    width: 176px;
+    height: 42px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    color: #111111;
+    font-size: 12px;
+    font-family: FiraGO;
+    border: none;
+}
+.abt-b1{
+    width: 28px;
+    height: 5px;
+    background-color: #ffffff;
+    opacity: 1;
+
+}
+.abt-b2{
+    width: 12px;
+    height: 5px;
+    background-color: #FFFFFF;
+    opacity: 50%;
+}
 .little-info{
     max-width: 1186px;
     height: 90px;
@@ -340,10 +396,99 @@ header{
     border: 1px solid #E7E7E733;
 }
 .product{
+    display: flex;
+    flex-direction: column;
+    position: relative;
     width: 277px;
     background-color: #FFFFFF;
     border: 1px solid #E7E7E74D;
     border-radius: 10px;
+}
+.product-petlist{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+.product-petlist h4{
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.product-petlist p{
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #6E6E6E;
+    margin-top: 9px;
+    line-height: 1.6;
+}
+.product-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+}
+.product-info div{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 35px;
+    border-radius:4px;
+    background-color: #F8F8F8;
+    color: #111111;
+    font-size: 13px;
+    font-family: FiraGO;
+}
+.product-price{
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-around ;
+}
+.product-price h5{
+    font-size: 24px;
+    font-family: FiraGO;
+    color:#111111;
+    margin-right: 105px;
+}
+.product-price span{
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    background-color: #74B42C;
+    color: white;
+    border-radius: 4px;
+}
+#price-no{
+    margin-top: 68px;
+    font-size: 14px;
+}
+.product-no{
+    margin-top: 61px;
+}
+.product-no h5{
+    font-size: 24px;
+}
+#product-bt{
+    margin-top: 61px;
+}
+.product>span{
+    width: 44px;
+    width: 44px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    right: 20px;
+    background-color: #F5621F;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.product img{
+    width: 165px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 56px;
 }
 .board-info{
     max-width: 1186px;
@@ -619,7 +764,7 @@ header{
 }
 .brands-slider{
     width: 100%;
-    height: 90px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -650,6 +795,10 @@ header{
     border: 1px solid #E7E7E74D;
     border-radius: 10px;
 }
+.brands img{
+    width: 100%;
+    height: 100%;
+}
 .footer-top{
     max-width: 1186px;
     margin: 0 auto;
@@ -667,6 +816,7 @@ header{
     font-size: 12px;
     font-family: FiraGO;
     color: #6E6E6E;
+    line-height: 1.8;
 }
 .footer-categories{
     margin-left: 127px;
@@ -734,4 +884,100 @@ header{
 }
 .kort-master{
     margin: 0 37px 0 31px;
+}
+
+
+
+
+
+/*contact.html*/
+
+.activ-meny{
+    max-width: 1186px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.activ-meny ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.activ-meny li{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #C8C8C8;
+}
+.contact-section{
+    max-width: 1186px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.contact-info li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.contact-info span{
+    color: #9C9C9C;
+    margin-right: 35px;
+}
+.contact-info h6{
+    font-size: 14px;
+    font-family: Myriad GEO Mtavruli;
+    color: #9C9C9C;
+    margin-bottom: 9px;
+}
+.contact-info h4{
+    font-size: 18px;
+    font-family: FiraGO;
+    color: #111111;
+    margin-bottom: 6px;
+}
+
+/* aboutus.html */
+.about-us{
+    max-width: 1186px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us img{
+    width: 984px;
+    height: 400px;
+}
+.about-text{
+    width: 782px;
+    margin-top: 65px;
+}
+.about-text h1{
+    font-size: 28px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.about-text p{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #111111;
+    margin-top: 31px ;
+    line-height: 1.8;
+}
+
+/* hover */
+li{
+    transition: opacity 0.12s;
+}
+li:hover{
+    opacity:0.6;
+}
+button{
+    transition: background-color 0.12s, coursor;
+}
+button:hover{
+    background-color: #E7E7E7;
+    cursor: pointer;
 }

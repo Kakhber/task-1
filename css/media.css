@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1024px) {
+    .little-info{
+        flex-direction: column;
+    }
+    .little-info>div{
+        width: auto;
+        flex-direction: column;
+        margin-bottom: 5px;
+        padding: 15px;
+    }
+    .animal-products{
+        margin-top: 300px;
+    }
+    .product-slider{
+        overflow-x: scroll;
+    }
+    .product-slider button{
+        display: none;
+    }
+    .last-slider{
+        overflow-x: scroll;
+    }
+    .last-slider button{
+        display: none;
+    }
+    .brands-slider{
+        overflow-x: scroll;
+    }
+    .brands-slider button{
+        display: none;
+    }
+    /* about-us */
+    .about-us img{
+        width: auto;
+    }
+}
